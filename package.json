@@ -1,0 +1,31 @@
+{
+  "name": "API.Airbnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "ts-node ./lib/index.ts",
+    "start": "node ./dist/index.js",
+    "prod": "npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonny11/API.Airbnb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonny11/API.Airbnb/issues"
+  },
+  "homepage": "https://github.com/Jonny11/API.Airbnb#readme",
+  "dependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.6.7",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "npm": "^6.0.0"
+  }
+}

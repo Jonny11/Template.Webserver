@@ -1,0 +1,39 @@
+#nodejs files
+**/node_modules/
+**/_lab_/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#exclude all .Rproj user files
+**/.Rproj.user/
+.Rhistory
+.RData
+
+WebCrawler/event_stream/
+
+WebCrawler/cache/access_token_cache\.js
+
+WebCrawler/package-lock\.json
+
+WebCrawler/config\.js
+
+WebCrawler/server/lab/
+
+cache/
+
+event_stream/
+
+config\.js
+
+tmp_data/
+
+*.csv
+.Rproj.user
